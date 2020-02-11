@@ -1,0 +1,180 @@
+/* Big tablets and Desktops */
+@media only screen and (max-width: 1200px) {
+    .hero-text {
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .city-feature { font-size: 90%; }
+
+    .plan {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .price { font-size: 250%; }
+
+    .individual-features { font-size: 80%; }
+}
+
+@media only screen and (max-width: 1097px) {
+    #last-price {
+        margin-bottom: 18px;
+    }
+}
+
+/*Small tablets*/
+@media only screen and (max-width: 900px) {
+    body { font-size: 18px; }
+
+    section { padding: 60px 0; }
+
+    .long {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box:first-child { margin-top: 10px; }
+
+    .steps-box:last-child { margin-top: 10px; }
+
+    .works-step { margin-bottom: 40px; }
+
+    .works-step:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
+
+    .icon-small { width: 20px; }
+
+    .city-feature { font-size: 90%; }
+
+    .plan {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .price { font-size: 250%; }
+
+    .contact-form { width: 80%; }
+}
+
+/*Big Phones and small ta*/
+@media only screen and (max-width: 767px) {
+    body { font-size: 17px; }
+
+    section { padding: 30px 0; }
+
+    .row, .hero-text { padding: 0 4%; }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .nav { display: none; }
+    .mobile-hamburger { display: inline-block; }
+    .nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .nav li { display: block; }
+
+    .nav li a:link,
+    .nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .nav { margin-top: 10px; }
+
+    .sticky .nav li a:link,
+    .sticky .nav li a:visited { padding: 10px; }
+    .nav li { margin-left: 40px; }
+
+    .sticky .mobile-hamburger i{ color: black; }
+    .sticky .mobile-x i{ color: black; }
+
+    .sticky .mobile-hamburger { margin-top: 15px; }
+    .sticky .mobile-x { margin-top: 15px; }
+
+    .mobile-hamburger { display: block; }
+    .mobile-x { display: none; }
+
+    .long {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h1 { font-size: 180%; }
+
+    h2 { font-size: 150%; }
+
+    h3 { padding: 2% 0; text-align: center;}
+
+    h4 { padding: 1% 0; text-align: center;}
+
+    .works-step { margin-bottom: 20px; }
+
+    .works-step:last-of-type { margin-bottom: 30px; }
+
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        font-size: 120%;
+        padding: 4px;
+        margin-right: 15px;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0%;
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+
+    .app-screen { width: 40%; }
+
+    .citations { padding-top: 20px; }
+
+    blockquote {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .icon-big {
+        margin-top: 8%;
+        font-size: 370%;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .cities img {
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        border-radius: 10px;
+    }
+
+    .js--wp-city1 { text-align: center; margin: 0 auto;}
+    .city-feature p { text-align: left; margin: 0 32%;}
+
+    .contact-form { width: 100%; }
+    .plan { margin-bottom: 5%; }
+    .plan li { font-size: 100%; }
+    .form-element { margin: 4%; 0; }
+}
+
+/*Small phones*/
+@media only screen and (max-width: 520px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+    .plan li { font-size: 150%; }
+    .price { font-size: 270%; }
+    h4 { font-size: 200%; }
+}
