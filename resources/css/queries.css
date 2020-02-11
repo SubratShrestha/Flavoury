@@ -58,10 +58,13 @@
     .price { font-size: 250%; }
 
     .contact-form { width: 80%; }
+    
+    .feat {padding: 5% 0;}
 }
 
 /*Big Phones and small ta*/
 @media screen and (max-width: 767px) {
+    .logo {width: 65%; height: 65%;}
     body { font-size: 17px; }
 
     section { padding: 30px 0; }
@@ -172,6 +175,7 @@
 
 /*Small phones*/
 @media screen and (max-width: 520px) {
+    .meals-showcase li { width: 50%; }
     .logo {width: 65%; height: 65%;}
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
