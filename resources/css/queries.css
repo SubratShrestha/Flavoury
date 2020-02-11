@@ -1,5 +1,5 @@
 /* Big tablets and Desktops */
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .hero-text {
         width: 100%;
         padding: 0 3%;
@@ -19,14 +19,14 @@
     .individual-features { font-size: 80%; }
 }
 
-@media only screen and (max-width: 1097px) {
+@media screen and (max-width: 1097px) {
     #last-price {
         margin-bottom: 18px;
     }
 }
 
 /*Small tablets*/
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     body { font-size: 18px; }
 
     section { padding: 60px 0; }
@@ -61,7 +61,7 @@
 }
 
 /*Big Phones and small ta*/
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     body { font-size: 17px; }
 
     section { padding: 30px 0; }
@@ -171,7 +171,7 @@
 }
 
 /*Small phones*/
-@media only screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
     .plan li { font-size: 150%; }
