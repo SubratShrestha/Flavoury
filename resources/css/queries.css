@@ -172,6 +172,7 @@
 
 /*Small phones*/
 @media screen and (max-width: 520px) {
+    .logo {width: 65%; height: 65%;}
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
     .plan li { font-size: 150%; }
