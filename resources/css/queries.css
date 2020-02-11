@@ -183,3 +183,9 @@
     .price { font-size: 270%; }
     h4 { font-size: 200%; }
 }
+
+ @media screen and (orientation:landscape) {
+    .logo {width: 40%; height: 40%;}
+    .hero-text {
+        transform: translate(-50%, -10%);
+    }
