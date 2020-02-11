@@ -165,7 +165,7 @@
     }
 
     .js--wp-city1 { text-align: center; margin: 0 auto;}
-    .city-feature p { text-align: left; margin: 0 32%;}
+    .city-feature p { text-align: center; }
 
     .contact-form { width: 100%; }
     .plan { margin-bottom: 5%; }
