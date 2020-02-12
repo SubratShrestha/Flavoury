@@ -62,6 +62,14 @@
     .feat {padding: 5% 0;}
 }
 
+@media screen and (max-width: 767px) {
+
+.form-input input[type="text"], .form-input input[type="email"], .form-input input[type="phone"], .form-input input[type="number"], .form-input input[type="tel"], .form-input-wide input[type="text"], .form-input-wide input[type="email"], .form-input-wide input[type="phone"], .form-input-wide input[type="number"], .form-input-wide input[type="tel"] {
+
+        width: 180px !important;
+
+}
+
 /*Big Phones and small ta*/
 @media screen and (max-width: 767px) {
     
