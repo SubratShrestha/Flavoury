@@ -64,6 +64,8 @@
 
 /*Big Phones and small ta*/
 @media screen and (max-width: 767px) {
+    
+    header { background-attachment: initial; }
 
     .logo {width: 65%; height: 65%;}
     body { font-size: 17px; }
