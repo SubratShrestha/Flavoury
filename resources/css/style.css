@@ -3,13 +3,9 @@
 /*-----------------------------------------*/
 
 /*
-
 ORANGE : #e67e22
-
 ALIZARIN : #e74c3c
-
 POMOGRANITE : #c0392b
-
 */
 
 * {
@@ -152,6 +148,24 @@ input[type=submit]:active {
 
 /*---------------------------------------------NAVIGATION---------------------------------------------*/
 
+/*              Mobile               */
+
+.nav-links {
+    display: none;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.mobile li {margin: 6% 0;}
+.mobile li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .logo {
     height: 120px;
     width: auto;
@@ -194,20 +208,6 @@ input[type=submit]:active {
 .nav li a:hover,
 .nav li a:active {
     border-bottom: 2px solid #e74c3c;
-}
-
-.mobile-hamburger,
-.mobile-x {
-    float: right;
-    margin-top: 30px;
-    cursor: pointer;
-    display: none;
-}
-
-.mobile-hamburger i,
-.mobile-x i {
-    font-size: 200%;
-    color: white;
 }
 
 .sticky {
@@ -259,9 +259,7 @@ input[type=submit]:active {
 
 /*---------------------------------------------SHOWCASE---------------------------------------------*/
 
-.section-meals {
-    padding: 0;
-}
+.section-meals { padding: 0; }
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -294,9 +292,7 @@ input[type=submit]:active {
 
 /*---------------------------------------------HOW IT WORKS---------------------------------------------*/
 
-.section-steps {
-    background-color: #f4f4f4;
-}
+.section-steps { background-color: #f4f4f4; }
 
 .steps-box:first-child {
     text-align: right;
@@ -309,17 +305,11 @@ input[type=submit]:active {
     padding-left: 3%;
 }
 
-.app-screen {
-    width: 40%;
-}
+.app-screen { width: 40%; }
 
-.works-step {
-    margin-bottom: 50px;
-}
+.works-step { margin-bottom: 50px; }
 
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
+.works-step:last-of-type { margin-bottom: 80px; }
 
 .works-step div {
     color: #e74c3c;
@@ -418,9 +408,7 @@ blockquote {
 
 /*---------------------------------------------SIGN UP---------------------------------------------*/
 
-.section-plans {
-    background-color: #f4f4f4;
-}
+.section-plans { background-color: #f4f4f4; }
 
 .plan {
     background-color: white;
@@ -449,12 +437,8 @@ blockquote {
     font-size: 95%;
 }
 
-.plan ul {
-    list-style: none;
-}
-.plan ul li {
-    padding: 1.5% 0%;
-}
+.plan ul { list-style: none; }
+.plan ul li { padding: 1.5% 0%; }
 .plan i {
     color: #e74c3c;
     padding-right: 3%;
@@ -480,13 +464,9 @@ textarea {
     border-radius: 10px;
     border: 1px solid #ccc;
 }
-textarea {
-    height: 120px;
-}
+textarea { height: 120px; }
 
-input[type=checkbox] {
-    margin: 10px 10px 10px 0;
-}
+input[type=checkbox] { margin: 10px 10px 10px 0; }
 
 /*---------------------------------------------FOOTER---------------------------------------------*/
 
@@ -524,9 +504,7 @@ input[type=checkbox] {
     transition: color 0.2s;
 }
 
-.socials li a {
-    font-size: 120%;
-}
+.socials li a { font-size: 120%; }
 
 .ion-logo-facebook,
 .ion-logo-twitter,
@@ -536,18 +514,10 @@ input[type=checkbox] {
     transition: color 0.3s;
 }
 
-.ion-logo-facebook:hover {
-    color: #3b5998;
-}
-.ion-logo-twitter:hover {
-    color: #00aced
-}
-.ion-logo-googleplus:hover {
-    color: #dd4b39
-}
-.ion-logo-instagram:hover {
-    color: #517fa4
-}
+.ion-logo-facebook:hover { color: #3b5998; }
+.ion-logo-twitter:hover { color: #00aced; }
+.ion-logo-googleplus:hover { color: #dd4b39; }
+.ion-logo-instagram:hover { color: #517fa4; }
 
 .footer-nav a:hover,
 .footer-nav a:active {
