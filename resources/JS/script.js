@@ -1,11 +1,16 @@
 $(document).ready(function() {
+    var home = true;
     /* Sticky navigations, appear when past first section. */
     $('.js--section-features').waypoint(function (direction) {
         if (direction == "down") {
+            home = false;
             $('nav').addClass('sticky');
+            $('.stick').addClass('active');
         }
         else {
+            home = true;
             $('nav').removeClass('sticky');
+            $('.stick').removeClass('active');
         }
     }, {
         offset: '60px;'
@@ -48,27 +53,31 @@ $(document).ready(function() {
 
     /* Mobile Navigation. */
     /* Hamburger. */
-    $('.js--nav-icon').click(function () {
-        var nav = $('.js--nav');
-        nav.slideToggle(200);
-        $('.js--nav-icon').css("display", "none");
-        $('.js--x').css("display", "block");
-    })
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const links = document.querySelectorAll('.nav-links li');
+    const pages = document.querySelectorAll('.mobile-link');
+    const stick = document.querySelector('.stick');
 
-    /* Closing. */
-    $('.js--x').click(function () {
-        var x = $('.js--nav');
-        x.slideToggle(200);
-        $('.js--x').css("display", "none");
-        $('.js--nav-icon').css("display", "block");
-    })
+    hamburger.addEventListener('click', () => {
+        if (home == false)
+            stick.classList.toggle('active');
+            document.querySelector('#hello').style.boxShadow = 'none';
 
-    /* Closing of nav bar when one of the links are clicked.
-    $('.mobile-link').click(function () {
-        if (newWindowWidth < 510) {
-            $('.js--nav').slideToggle(200);
-            $('.js--x').css("display", "none");
-            $('.js--nav-icon').css("display", "block");
-        }
-    })*/
+        navLinks.classList.toggle('open');
+        links.forEach(link => {
+            navLinks.classList.toggle('open');
+            link.classList.toggle("fade");
+        });
+    });
+
+    pages.forEach(page => {
+        page.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            links.forEach(link => {
+                navLinks.classList.toggle('open');
+                link.classList.toggle("fade");
+            });
+        });
+    });
 });
