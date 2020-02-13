@@ -60,15 +60,18 @@ $(document).ready(function() {
     const stick = document.querySelector('.stick');
 
     hamburger.addEventListener('click', () => {
-        if (home == false)
+        if (home == false) {
             stick.classList.toggle('active');
             document.querySelector('#hello').style.boxShadow = 'none';
-
+        }
         navLinks.classList.toggle('open');
+
         links.forEach(link => {
             navLinks.classList.toggle('open');
             link.classList.toggle("fade");
         });
+        document.querySelector('.mobile').classList.toggle('z-in');
+
     });
 
     pages.forEach(page => {
@@ -78,6 +81,8 @@ $(document).ready(function() {
                 navLinks.classList.toggle('open');
                 link.classList.toggle("fade");
             });
+            document.querySelector('.mobile').classList.toggle('z-in');
+
         });
     });
 });
