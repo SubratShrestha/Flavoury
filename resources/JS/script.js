@@ -17,7 +17,20 @@ $(document).ready(function() {
     });
 
     /* Animated scroll according to anchors */
-    $(function () {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+    var offset = -60; // <-- change the value here
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top + offset
+            }, 0);
+            return false;
+        }
+    }
+});
+    /*$(function () {
         $( 'a[href*="#"]:not([href="#"])' ).click( function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
                 && location.hostname == this.hostname) {
@@ -32,7 +45,7 @@ $(document).ready(function() {
                 }
             }
         });
-    });
+    });*/
 
 
     /* Sliding animation of features. */
