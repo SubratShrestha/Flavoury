@@ -44,8 +44,8 @@ body {
 
 header {
     margin: 0;
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.65)),to(rgba(0,0,0,0.65))),  url(images/proo.jpg);
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),  url(images/proo.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.65)),to(rgba(0,0,0,0.65))),  url(images/proo.png);
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),  url(images/proo.png);
     background-attachment: fixed;
     height: 100vh;
     background-position: center;
@@ -373,8 +373,8 @@ a:active {
 /*---------------------------------------------TESTIMONIALS---------------------------------------------*/
 
 .section-testimonials {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/back-customers.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/back-customers.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/back-customers.png);
     background-attachment: fixed;
     background-size: cover;
     color: white;
